@@ -1,0 +1,3 @@
+https://www.sitepoint.com/community/t/database-connections-with-oop-php-and-mysqli/38642
+
+https://devjunky.com/PHP-OOP-Database-Class-Example/
