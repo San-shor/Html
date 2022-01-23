@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+    <style>
+        /*.div-one{*/
+        /*    height: 300px;*/
+        /*    width: 300px;*/
+        /*    background-color: brown;*/
+        /*    position: sticky;*/
+        /*    top: 0px;*/
+        /*    right: 0px;*/
+
+        /*}*/
+        /*.div-2{*/
+        /*    height: 200px;*/
+        /*    width: 200px;*/
+        /*    background-color: darkgreen;*/
+        /*    position: absolute;*/
+        /*    right: 0px;*/
+        /*}*/
+        .dive-one{
+            height: 600px;
+            width: 900px;
+            background-color: darkgreen;
+            position:relative;
+            margin-top:30px;
+        }
+        .div-two{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            position:absolute;
+            right: 300px;
+            top:100px;
+            border-radius: 50%;
+        }
+        .div-3{
+            height: 300px;
+            width: 300px;
+            background-color: lightcoral;
+            border: 1px solid black;
+            transition: 1s;
+            margin: 150px;
+            /*transform: scaleX(1);*/
+            /*transform: scaleY(1);*/
+            /*transform: scale3d(1,1,1);*/
+        }
+        .div-3:hover{
+            /*border-radius: 150px;*/
+            /*transform: scaleX(1.5);*/
+            /*transform: scale3d(1.5,1.5,1.5);*/
+            /*transform: rotate(360deg);*/
+            transform: skew(180deg);
+        }
+        .box{
+            margin-left: 150px;
+            position: relative;
+        }
+        .one{
+            height: 300px;
+            width: 50px;
+            background-color: chocolate;
+            transform: skew(-30deg);
+            float: left;
+        }
+        .two{
+            height: 300px;
+            width: 50px;
+            background-color: chocolate;
+            transform: skew(30deg);
+            float: left;
+            margin-left: 150px;
+        }
+        .three{
+            height: 20px;
+            width: 230px;
+            background-color: chocolate;
+            margin-top: 150px;
+            transform: skewX(30deg);
+            position: absolute;
+            top: 0px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+<div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</div>
+
+
+
+<!--<div class="div-3"></div>-->
+<!--   <div class="dive-one">-->
+<!--       <div class="div-two"></div>-->
+<!--   </div>-->
+</body>
+</html>
