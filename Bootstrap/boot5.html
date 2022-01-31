@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form action="">
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phn">Phone</label>
+                    <input type="number" id="phn" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="add">Address</label>
+                    <textarea id="add" class="form-control" cols="15" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="dis">District Name</label>
+                    <select name="" id="dis" class="form-control">
+                        <option value="" disabled selected>select a distric</option>
+                        <optgroup label="Dhaka Division">
+                        <option value="">Dhaka</option>
+                        <option value="">Gazipur</option>
+                        <option value="">Savar</option>
+                        </optgroup>
+                        <optgroup label="Chittagong">
+                        <option value="">Chandpur</option>
+                        <option value="">Cumilla</option>
+                        <option value="">Noakhali</option>
+                        </optgroup>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender
+                        <div>
+                            <label><input type="radio" name="gender">Male</label>
+                            <label ><input type="radio" name="gender" >Female</label>
+                             <input type="radio" name="gender">Others
+                        </div>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image</label>
+                    <input type="file" id="image" class="form-control-file" accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birthd</label>
+                    <input type="date" id="dob">
+                </div>
+                <div class="form-group">
+
+                    <input type="checkbox" > I agree with all terms & condition
+                </div>
+                <div class="form-group">
+
+                    <input type="submit" class="btn btn-outline-success" value="submit">
+                </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group row">
+                        <label for="finame" class="col-md-4 col-form-label">First Name</label>
+                        <div class="col-md-8">
+                            <input type="text"  list="name" class="form-control" id="finame">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="laname" class="col-md-4 col-form-label">Last Name</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="laname">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="mail" class="col-md-4 col-form-label">Email</label>
+                        <div class="col-md-8">
+                            <input type="email" class="form-control" id="mail">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="password" class="col-md-4 col-form-label">Password</label>
+                        <div class="col-md-8">
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="address" class="col-md-4 col-form-label">Address</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="address">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="contact" class="col-md-4 col-form-label">Contact</label>
+                        <div class="col-md-8">
+                            <input type="tel" class="form-control" id="contact">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="district" class="col-md-4 col-form-label">District</label>
+                        <div class="col-md-8">
+                            <select name="" id="district" class="form-control">
+                                <option value="" disabled selected>select a distric</option>
+                                <optgroup label="Dhaka Division">
+                                    <option value="">Dhaka</option>
+                                    <option value="">Gazipur</option>
+                                    <option value="">Savar</option>
+                                </optgroup>
+                                <optgroup label="Chittagong">
+                                    <option value="">Chandpur</option>
+                                    <option value="">Cumilla</option>
+                                    <option value="">Noakhali</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="gen" class="col-md-4 col-form-label">Gender</label>
+                        <div class="col-md-8">
+                            <label><input type="radio" name="gender">Male</label>
+                            <label ><input type="radio" name="gender" >Female</label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="img" class="col-md-4 col-form-label">Image</label>
+                        <div class="col-md-8">
+                        <input type="file" id="img" class="form-control-file" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="db" class="col-md-4 col-form-label">Date of Birth</label>
+                        <div class="col-md-8">
+                        <input type="date" id="db">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+
+                        <input type="checkbox" class="col-md-4 col-form-label" > I agree with all terms & condition
+                        </div>
+                    </div>
+                    <div class="form-group">
+
+                        <input type="submit" class="btn btn-outline-success col-md-4 col-form-label" value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+            </div>
+
+</section>
+
+<datalist id="name">
+    <option value="Arif rayhan"></option>
+    <option value="Shanto"></option>
+    <option value="Mamun"></option>
+    <option value="Shela"></option>
+    <option value="Sazzad"></option>
+
+</datalist>
+
+
+<section class="py-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body">
+                    <table class="table table-info table-striped table-bordered">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+                            <th>district</th>
+                            <th>Image</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Arif rayhan</td>
+                            <td>Arif@gmail.com</td>
+                            <td>0152849135</td>
+                            <td>Mohammadpur</td>
+                            <td>Dhaka</td>
+                            <td><img src="img/images6.jpg" style="height: 100px;width: 100px" alt="image"></td>
+                            <td>
+                                <a href="" class="btn btn-sm btn-danger"><i class="fas fa-edit"></i></a>
+                                <a href="" class="btn  btn-sm btn-success">
+                                <i class="fas fa-trash bt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Arif rayhan</td>
+                            <td>Arif@gmail.com</td>
+                            <td>0152849135</td>
+                            <td>Mohammadpur</td>
+                            <td>Dhaka</td>
+                            <td><img src="" alt="image"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arif rayhan</td>
+                            <td>Arif@gmail.com</td>
+                            <td>0152849135</td>
+                            <td>Mohammadpur</td>
+                            <td>Dhaka</td>
+                            <td><img src="" alt="image"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Arif rayhan</td>
+                            <td>Arif@gmail.com</td>
+                            <td>0152849135</td>
+                            <td>Mohammadpur</td>
+                            <td>Dhaka</td>
+                            <td><img src="" alt="image"></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
